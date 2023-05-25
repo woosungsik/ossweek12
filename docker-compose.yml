@@ -1,0 +1,5 @@
+version : "3.0"
+services:
+  python-app: # 서비스명
+    image : ${sumgsik}/ossweek12
+    build : .
